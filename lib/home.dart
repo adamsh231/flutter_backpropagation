@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
       DeviceOrientation.portraitDown,
     ]);
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       body: Stack(
         children: <Widget>[
           Container(
